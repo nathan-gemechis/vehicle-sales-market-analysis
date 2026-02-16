@@ -1,0 +1,13 @@
+The analysis is organized into five main scripts, which are designed to be executed sequentially:
+
+1. data_validation_01.py – Load raw vehicle transaction data, enforce schema requirements, remove incomplete or invalid records, standardize categorical fields, and export a cleaned dataset.
+
+2. feature_engineering_02.py – Create pricing efficiency features including vehicle age, pricing gaps, percentage deviations from MMR, and above-market indicators. Produces aggregated brand-level summaries.
+
+3. modeling_pricing_gap_03.py – Estimate an OLS regression model to identify vehicle characteristics associated with systematic overpricing or discounting. Exports model summaries and coefficient tables.
+
+4. seller_clustering_04.py – Aggregate transaction data to seller-level metrics, apply log transformations and scaling, and segment sellers using KMeans clustering.
+
+5. 05_tableau_export.py – Generate denormalized, analytics-ready CSV files optimized for Tableau dashboards, including transaction summaries, seller segments, pricing trends, and demand signals.
+
+Running the scripts in order executes the full pricing intelligence pipeline end-to-end.
