@@ -8,6 +8,6 @@ The analysis is organized into five main scripts, which are designed to be execu
 
 4. seller_clustering_04.py – Aggregate transaction data to seller-level metrics, apply log transformations and scaling, and segment sellers using KMeans clustering.
 
-5. 05_tableau_export.py – Generate denormalized, analytics-ready CSV files optimized for Tableau dashboards, including transaction summaries, seller segments, pricing trends, and demand signals.
+5. tableau_export_05.py – Generate denormalized, analytics-ready CSV files optimized for Tableau dashboards, including transaction summaries, seller segments, pricing trends, and demand signals.
 
 Running the scripts in order executes the full pricing intelligence pipeline end-to-end.
