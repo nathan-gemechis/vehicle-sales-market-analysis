@@ -26,7 +26,7 @@ The workflow integrates data validation, feature construction, econometric model
 - feature_engineering_02.py  
 - modeling_pricing_gap_03.py  
 - seller_clustering_04.py  
-- 05_tableau_export.py  
+- tableau_export_05.py  
 
 ## Execution Pipeline
 
@@ -40,7 +40,7 @@ The analysis is organized into five modular scripts designed to be run sequentia
 
 4. **seller_clustering_04.py** – Aggregate transaction data to seller-level metrics, apply log transformations to skewed variables, standardize features, and segment sellers using KMeans clustering.
 
-5. **05_tableau_export.py** – Consolidate transaction-level, seller-level, and demand-level metrics into denormalized, BI-ready CSV files optimized for Tableau dashboards.
+5. **tableau_export_05.py** – Consolidate transaction-level, seller-level, and demand-level metrics into denormalized, BI-ready CSV files optimized for Tableau dashboards.
 
 Running the scripts in sequence produces a complete pricing intelligence and seller segmentation workflow.
 
@@ -105,7 +105,7 @@ python data_validation_01.py
 python feature_engineering_02.py
 python modeling_pricing_gap_03.py
 python seller_clustering_04.py
-python 05_tableau_export.py
+python tableau_export_05.py
 ```
 
 - This runs the full pipeline and produces all analytical and BI-ready outputs.
