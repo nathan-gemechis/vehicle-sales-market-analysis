@@ -16,7 +16,7 @@ import numpy as np
 # -----------------------------
 # Load raw data
 # -----------------------------
-RAW_DATA_PATH = "/Users/nathangemechis/Desktop/python_tech/vehicle_sales.csv"
+RAW_DATA_PATH = "PATH TO RAW DATA"
 OUTPUT_PATH = "cleaned.csv"
 
 df = pd.read_csv(RAW_DATA_PATH)
