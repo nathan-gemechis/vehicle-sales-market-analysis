@@ -1,0 +1,9 @@
+Outputs Folder Overview
+
+This directory contains generated analytical artifacts from the Vehicle Marketplace Pricing & Seller Intelligence Pipeline, including model outputs, seller segmentation tables, demand aggregates, and Tableau-ready summary files.
+
+Due to file size constraints, the original raw dataset, cleaned dataset, and full feature-engineered transaction data are not included in this repository. All outputs are fully reproducible by executing the pipeline scripts sequentially with the appropriate data source.
+
+A static screenshot of the Tableau dashboard is included in this folder for preview purposes. The full interactive dashboard can be accessed at:
+
+https://public.tableau.com/app/profile/nathan.gemechis/viz/VehicleMarketPricingDemandDashboard/Dashboard1
