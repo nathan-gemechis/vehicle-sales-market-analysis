@@ -17,10 +17,10 @@ import os
 # -----------------------------
 # Paths
 # -----------------------------
-FEATURE_ENGINEERED_DATA_PATH = "/Users/nathangemechis/Desktop/python_tech/feature_engineered_data.csv"
-SELLER_CLUSTER_PATH = "/Users/nathangemechis/Desktop/python_tech/seller_clusters.csv"
+FEATURE_ENGINEERED_DATA_PATH = "FEATURE ENGINEERED DATA PATH"
+SELLER_CLUSTER_PATH = "PATH TO SELLER CLUSTER DATA"
 
-OUTPUT_DIR = "/Users/nathangemechis/Desktop/python_tech/outputs/tables"
+OUTPUT_DIR = "OUTPUT DIRECTORY"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 # -----------------------------
