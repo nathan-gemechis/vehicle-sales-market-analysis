@@ -16,7 +16,7 @@ import numpy as np
 # -----------------------------
 # Load cleaned data
 # -----------------------------
-CLEANED_DATA_PATH = "/Users/nathangemechis/Desktop/python_tech/cleaned.csv"
+CLEANED_DATA_PATH = "PATH TO CLEANED DATA"
 OUTPUT_DIR = "."
 
 df = pd.read_csv(CLEANED_DATA_PATH)
