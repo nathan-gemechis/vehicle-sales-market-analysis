@@ -24,8 +24,8 @@ from sklearn.preprocessing import StandardScaler
 # -----------------------------
 # Configuration
 # -----------------------------
-FEATURE_ENGINEERED_DATA_PATH = "/Users/nathangemechis/Desktop/python_tech/feature_engineered_data.csv"
-OUTPUT_DIR = "/Users/nathangemechis/Desktop/python_tech"
+FEATURE_ENGINEERED_DATA_PATH = "FEATURE ENGINEERED DATA PATH"
+OUTPUT_DIR = "OUTPUT DIRECTORY"
 
 N_CLUSTERS = 3
 MIN_TRANSACTIONS = 10
